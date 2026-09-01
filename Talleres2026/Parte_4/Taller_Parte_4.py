@@ -115,7 +115,7 @@
 
 #Ejercicio 38
 #
-# array1 = [] 
+# array1 = []
 # array2 = []
 
 # amount = int(input('''\nIngresa la cantidad de numeros que
@@ -124,13 +124,50 @@
 # for i in range(1,amount+1):
 #     temp1= int(input(f"\nIngrese su {i} numero a la primera lista > "))
 #     array1.append(temp1)
-    
-# for i in range(1,amount+1):
+
 #     temp2= int(input(f"\nIngrese su {i} numero a la segunda lista > "))
+# for i in range(1,amount+1):
 #     array2.append(temp2)
 
 # print(f"Su lista combinada es igual a {array1+array2}")
 
 
-#Ejercicio 39 
-# 
+#Ejercicio 39
+#
+
+
+lista = []
+amount = int(input("\nIngresa la cantidad de números que desea ingresar > "))
+
+for i in range(1, amount+1):
+    temp = int(input(f"\nIngrese su {i} número a la lista > "))
+    lista.append(temp)
+
+# Ordenamos la lista de mayor a menor
+lista.sort(reverse=True)
+
+# Mostramos el segundo número mayor
+if len(lista) >= 2:
+    print("El segundo número mayor es >", lista[1])
+else:
+    print("No hay suficientes números para determinar el segundo mayor")
+
+
+
+#Ejercicio 40
+#
+# array = []
+# amount = int(input('''\nIngresa la cantidad de productos que
+#    desea guardar en la lista > '''))
+
+# for i in range(1,amount+1):
+#     temp = input(f"\nIngrese su{i} articulo ")
+#     array.append(temp)
+
+# print("\n Lista de compras > ")
+
+# count= 1
+
+# for j in array:
+#     print(f"{count}.{j}")
+#     count+=1
