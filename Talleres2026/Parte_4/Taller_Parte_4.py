@@ -136,21 +136,21 @@
 #
 
 
-lista = []
-amount = int(input("\nIngresa la cantidad de números que desea ingresar > "))
+# lista = []
+# amount = int(input("\nIngresa la cantidad de números que desea ingresar > "))
 
-for i in range(1, amount+1):
-    temp = int(input(f"\nIngrese su {i} número a la lista > "))
-    lista.append(temp)
+# for i in range(1, amount+1):
+#     temp = int(input(f"\nIngrese su {i} número a la lista > "))
+#     lista.append(temp)
 
-# Ordenamos la lista de mayor a menor
-lista.sort(reverse=True)
+# # Ordenamos la lista de mayor a menor
+# lista.sort(reverse=True)
 
-# Mostramos el segundo número mayor
-if len(lista) >= 2:
-    print("El segundo número mayor es >", lista[1])
-else:
-    print("No hay suficientes números para determinar el segundo mayor")
+# # Mostramos el segundo número mayor
+# if len(lista) >= 2:
+#     print("El segundo número mayor es >", lista[1])
+# else:
+#     print("No hay suficientes números para determinar el segundo mayor")
 
 
 
