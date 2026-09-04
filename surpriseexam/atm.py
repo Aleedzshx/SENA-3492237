@@ -9,7 +9,7 @@ attempts = 3
 #=============
 def menu():
     print("~"*30)
-    print(f'''
+    print('''
     Sus opciones son...
     1. Consultar Saldo
     2. Depositar
